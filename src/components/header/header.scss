@@ -1,0 +1,43 @@
+  .react-tel-input .form-control{
+    height: 50px!important;
+  }
+  .search_form::after{
+    content: "";
+    width: 0.5px;
+    height: 61px;
+    // margin-top: -6px;
+    background: #d8d7d7;
+    border-radius: 6px;
+    position: absolute;
+}
+.bordergray{
+border-left: 1.3px solid #d8d7d7;
+}
+.banner-react-select-main .banner-react-select__control {
+    background-color: transparent !important;
+    border: none;
+    font-family: "BasisGrotesquePro-Medium";
+    font-size: 18px;
+    box-sizing: border-box;
+    border-radius: 0;
+    height: 60px;
+    padding: 0 12px;
+}
+
+.banner-react-select__indicators .banner-react-select__indicator {
+    color: #a3a3a3 !important;
+    padding: 20px !important;
+}
+
+.css-1okebmr-indicatorSeparator{
+  background: none !important;
+}
+.btn-primary::before {
+    color: #fff;
+    font-size: 20px;
+    text-align: left;
+    content: "\e810";
+    font-family: "fontello";
+    margin: 0 8px 0 0px;
+}
+  

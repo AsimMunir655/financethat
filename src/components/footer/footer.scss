@@ -1,0 +1,95 @@
+.main-footer {
+  .footer-col.first-col {
+    // background-color: $lightdark;
+    padding: 129px 40px;
+  }
+  // .footer-content-col {
+  //     display: table;
+  //     width: 100%;
+  // }
+  .footer-routes li {
+    font-size: 14px;
+    line-height: 53px;
+  }
+  h2 {
+    font-family: "basis_grotesque_probold";
+    font-size: 42px;
+    line-height: 54px;
+    // color: $darkpurpule;
+    margin: 0;
+  }
+
+  h2 span {
+    // color: $orange;
+  }
+  .footer_links {
+    color: rgba(19, 19, 19, 0.6);
+    text-decoration: none !important;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .Contact-fLinks {
+    margin: 0 0 30px 0;
+    padding: 0;
+  }
+  .first-col .footer-content-col p {
+    margin: 25px 0 68px;
+  }
+
+  .footer-content-col p {
+    // @include content-4;
+  }
+  .SocialMedia-Icon ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-bottom-links ul li {
+    display: inline-block;
+    margin: 0 0 0 16px;
+  }
+  .footer-bottom-links {
+    margin: 32px 0 0;
+  }
+  .footer-col.second-col {
+    background-color: #fff;
+    padding: 117px 40px 117px 40px;
+  }
+  h4 {
+    // @include content-2;
+  }
+  .second-col .footer-content-col p.bottom-para {
+    font-family: "basis_grotesque_proregular";
+    font-size: 16px;
+    line-height: 24px;
+    margin: 57px 0 20px;
+  }
+  .copyrights {
+    font-family: "BasisGrotesquePro-Medium";
+    display: block;
+    font-size: 16px;
+    line-height: 21px;
+    color: #3f2355;
+  }
+  // @media screen and (min-width: 2500px) {}
+  // @media screen and (max-width: 1920px) {}
+  // @media screen and (max-width: 1600px) {}
+  // @media screen and (max-width: 1400px) {}
+  // @media screen and (max-width: 1280px) {}
+  // @media screen and (max-width: 1024px) {}
+  @media screen and (max-width: 1300px) {
+    .footer-col.first-col {
+      padding: 129px 40px;
+    }
+    .main-Footer .footer-col.second-col {
+      padding: 117px 40px 117px 40px;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .first-col {
+      padding: 40px 20px 45px;
+    }
+    .footer-col.second-col {
+      padding: 40px 64px 32px 64px;
+    }
+  }
+}

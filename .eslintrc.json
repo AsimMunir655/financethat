@@ -1,0 +1,72 @@
+{
+  "env": {
+    "browser": true, // Browser global variables like `window` etc.
+    "commonjs": true, // CommonJS global variables and CommonJS scoping.Allows require, exports and module.
+    "es6": true, // Enable all ECMAScript 6 features except for modules.
+    "jest": true, // Jest global variables like `it` etc.
+    "node": true // Defines things like process.env when generating through node
+  },
+  "extends": [
+    "eslint:recommended",
+    "airbnb",
+    "prettier",
+    "plugin:react/jsx-runtime",
+    "plugin:jest/recommended"
+  ],
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["prettier"],
+
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto",
+        "bracketSpacing": true,
+        "jsxBracketSameLine": true
+      }
+    ],
+    "no-unused-vars": "warn",
+    "func-names": "off",
+    "no-empty": 0,
+    "no-irregular-whitespace": 0,
+    "array-bracket-spacing": ["error", "never"],
+    "space-in-parens": ["error", "never"],
+    "object-curly-spacing": ["error", "always"],
+    "object-curly-newline": ["error", { "multiline": true }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "no-mixed-operators": "error",
+    "no-unexpected-multiline": "error",
+    "no-multiple-empty-lines": [2, { "max": 1, "maxEOF": 0 }],
+    "block-closing-brace-empty-line-before": 0,
+    "brace-style": ["error", "1tbs", { "allowSingleLine": true }],
+    "quotes": ["error", "double"],
+    "import/prefer-default-export": "off",
+    "comma-style": ["error", "last"],
+    "jsx-quotes": ["error", "prefer-double"],
+    "line-comment-position": ["error", { "position": "above" }],
+    "lines-around-comment": [
+      "error",
+      {
+        "afterLineComment": false,
+        "afterBlockComment": true,
+        "allowBlockStart": true,
+        "allowObjectStart": true,
+        "allowArrayStart": true
+      }
+    ],
+    "no-extra-parens": ["error", "all", { "ignoreJSX": "all" }],
+    "no-mixed-spaces-and-tabs": "error",
+    "no-multi-spaces": "error",
+    "no-tabs": ["error", { "allowIndentationTabs": true }],
+    "no-trailing-spaces": ["error", { "ignoreComments": true }],
+    "eol-last": ["error", "always"],
+    "import/newline-after-import": ["error", { "count": 1 }],
+    "react/jsx-props-no-spreading": "off",
+    "import/no-unresolved": [0, { "caseSensitive": false }],
+    "import/no-extraneous-dependencies": ["error", { "peerDependencies": true }]
+  }
+}
